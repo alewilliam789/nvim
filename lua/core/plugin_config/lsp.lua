@@ -1,6 +1,6 @@
 local lsp_zero = require('lsp-zero')
 
-lsp_zero.setup_servers({'tsserver','ccls', 'pyright'})
+lsp_zero.setup_servers({'tsserver','clangd', 'pyright'})
 
 lsp_zero.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}

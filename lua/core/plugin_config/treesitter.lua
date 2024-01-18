@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup {
-    ensure_installed = { "html", "css", "scss", "javascript", "typescript", "c"},
+    ensure_installed = { "typescript", "python","c","cpp","json", "make"},
 
     --Install parsers sycnchronously (only applied to above)
     sync_install = false,

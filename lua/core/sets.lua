@@ -29,4 +29,5 @@ vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+vim.opt.mouse= ""
 vim.keymap.set('n', '<leader>h',':nohlsearch<CR>')
