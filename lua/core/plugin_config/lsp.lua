@@ -1,6 +1,6 @@
 local lsp_zero = require('lsp-zero')
 
-lsp_zero.setup_servers({'clangd', 'pyright', 'rust_analyzer'})
+lsp_zero.setup_servers({'clangd', 'pyright', 'rust_analyzer', 'gopls'})
 
 lsp_zero.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}
@@ -19,7 +19,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'rust_analyzer','pyright','clangd'},
+  ensure_installed = {'rust_analyzer','pyright','clangd','gopls'},
   handlers = {
     lsp_zero.default_setup,
   },
