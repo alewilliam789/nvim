@@ -22,12 +22,8 @@ local plugins = {
     tag = '0.1.4',
     dependencies = {{'nvim-lua/plenary.nvim'}}
  },
- 'williamboman/mason.nvim',
- 'williamboman/mason-lspconfig.nvim',
- 'neovim/nvim-lspconfig',
  'theprimeagen/harpoon',
  {'akinsho/toggleterm.nvim', version = "*", config = true},
- {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
  {'neovim/nvim-lspconfig'},
  {'hrsh7th/cmp-nvim-lsp'},
  {'hrsh7th/nvim-cmp'},
