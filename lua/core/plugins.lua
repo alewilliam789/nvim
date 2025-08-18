@@ -27,10 +27,7 @@ local plugins = {
  'neovim/nvim-lspconfig',
  'theprimeagen/harpoon',
  {'akinsho/toggleterm.nvim', version = "*", config = true},
- {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
  {'neovim/nvim-lspconfig'},
- {'hrsh7th/cmp-nvim-lsp'},
- {'hrsh7th/nvim-cmp'},
  {'L3MON4D3/LuaSnip'},
  {
     'numToStr/Comment.nvim',
